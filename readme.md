@@ -65,6 +65,10 @@ The project follows **Clean Architecture** principles, ensuring separation of co
 - **Async**: Kotlin Coroutines
 - **UI**: Jetpack Navigation, RecyclerView, Material Components
 - **Testing**: JUnit, MockK
+- **Image Loading**: Glide
+- **Build Tools**: Android Studio
+- **Version Control**: Git
+- **Code Quality**: Ktlint
 
 ---
 
