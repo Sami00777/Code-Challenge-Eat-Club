@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">EatClub Challenge</string>
+    <string name="logo_icon">Logo Icon</string>
+    <string name="account_icon">account icon</string>
+    <string name="filter_icon">filter icon</string>
+    <string name="icon_favorite">icon favorite</string>
+    <string name="unknown_location">Unknown Location</string>
+    <string name="dine_in">"Dine In"</string>
+    <string name="takeaway">"Takeaway"</string>
+    <string name="dine_in_and_take_away">"Dine In ● Takeaway"</string>
+    <string name="no_deals_available">No Deals Available</string>
+    <string name="deal_title">%1$d%% off %2$s</string>
+    <string name="dine_in_suffix">- Dine In</string>
+    <string name="take_away_suffix">- Takeaway</string>
+    <string name="deal_subtitle_anytime">Anytime Today</string>
+    <string name="deal_subtitle_range">Arrive before %1$s</string>
+    <string name="restaurant_image">Restaurant Image</string>
+    <string name="favorite">Favorite</string>
+    <string name="location">Location</string>
+    <string name="call_us">Call Us</string>
+    <string name="menu">Menu</string>
+    <string name="redeem">Redeem</string>
+    <string name="hours">Hours: %1$s - %2$s</string>
+    <string name="placeholder_off">%1$s%% Off</string>
+    <string name="placeholder_deals_left">%1$s Deals Left</string>
+    <string name="between_placeholder">Between %1$s - %2$s</string>
+    <string name="e_g_chinese_pizza">e.g chinese, pizza</string>
+    <string name="search_icon">search icon</string>
+    <string name="exit_app">Exit App</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Try Again</string>
+    <string name="image_lightning">image lightning</string>
+    <string name="discount_with_offer_type">%1$s %2$s</string>
+</resources>

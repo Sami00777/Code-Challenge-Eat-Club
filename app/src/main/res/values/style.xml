@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextTitle26">
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="TextTitle20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_flex</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="TextTitle18Red">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">roboto_flex</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="TextSubtitle16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="TextSubtitle14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="TextSubtitle12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+</resources>

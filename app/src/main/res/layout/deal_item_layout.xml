@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="32dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:alpha="0.3"
+        android:background="@color/gray"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLightning"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="-4dp"
+        android:contentDescription="@string/image_lightning"
+        android:src="@drawable/ic_lightning"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewOffer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewOffer" />
+
+    <TextView
+        android:id="@+id/textViewOffer"
+        style="@style/TextTitle18Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/red"
+        app:layout_constraintStart_toEndOf="@+id/imgLightning"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:text="30% off" />
+
+    <TextView
+        android:id="@+id/textHours"
+        style="@style/TextSubtitle14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOffer"
+        tools:text="Between 12:00 pm - 3:00 pm" />
+
+    <TextView
+        android:id="@+id/textDealsLeft"
+        style="@style/TextSubtitle12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:alpha="0.8"
+        android:gravity="center_vertical"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHours"
+        tools:text="5 Deals Left" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/redeemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="8dp"
+        android:text="@string/redeem"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/transparent"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:strokeColor="@color/red"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
